@@ -41,9 +41,9 @@ A simple and responsive multipurpose website template. This project is ideal for
 
 ## 📸 Screenshots
 
-![Homepage](images/1.jpg)  
-![Services](images/2.jpg)
-![Signup](images/3.jpg)  
+![Homepage](images/1.png)  
+![Services](images/2.png)
+![Signup](images/3.png)  
 ![Contact](images/4.png)
 
 ---
