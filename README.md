@@ -41,12 +41,10 @@ A simple and responsive multipurpose website template. This project is ideal for
 
 ## 📸 Screenshots
 
-```markdown
 ![Homepage](images/1.jpg)  
 ![Services](images/2.jpg)
 ![Signup](images/3.jpg)  
 ![Contact](images/4.png)
-```
 
 ---
 
