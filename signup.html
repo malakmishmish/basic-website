@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up for Updates</title>
+    <link rel="icon" type="text/css" href="images/logo.png">
+    <link rel="stylesheet" href="stylesign.css">
+
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="Website Logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Sign Up for <span class="primary-text" >KAYHAVEN</span></h1>
+        <p>“Join our community to receive the latest property listings and updates"</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="UserName">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="malak123@example.com">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="4" maxlength="15">
+            </div>
+            <div>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required minlength="4" maxlength="15">
+            </div>
+            <div>
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions</label>
+            </div>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+            <p>Join our mailing list to stay updated on the latest news, exclusive discounts, and exciting announcements.</p>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: 123 Main Street, Anytown, USA | Phone: (123) 456-7890 | Email: KEYHAVEN@gmail.com</p>
+        <p>Follow us:
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://twitter.com">Twitter</a> |
+            <a href="https://instagram.com">Instagram</a>
+        </p>
+        <p>&copy; 2024 KayHaven. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
